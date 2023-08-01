@@ -77,6 +77,25 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.param-wrapper strong {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.param-wrapper span {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
 
 .header-picture {
     width: 33%;
@@ -97,26 +116,6 @@ footer {
     font-style: normal;
     font-weight: 200;
     letter-spacing: 0.4px;
-}
-
-.numbers {
-    color: #FFF;
-    font-family: Roboto, sans-serif;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: 1.12px;
-    text-transform: uppercase;
-}
-
-.header-text {
-    color: #FFF;
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 0.48px;
-    text-transform: capitalize;
 }
 
 .brand-logo {
@@ -147,7 +146,6 @@ footer {
 
 .highlighted-text {
     width: 100%;
-    height: auto;
     background: #D9D9D9;
     color: #000;
     font-family: "Roboto Mono", monospace;
@@ -181,11 +179,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
 .block {
-    height: auto;
     padding: 20px;
     background: #D9D9D9;
     margin: 40px 0px;
@@ -232,10 +228,10 @@ footer {
         width: 90%;
         font-size: 17px;
     }
-    .numbers {
+    .param-wrapper strong {
         font-size: 40px;
     }
-    .header-text {
+    .param-wrapper span {
         font-size: 17px;
     }
    
@@ -249,7 +245,6 @@ footer {
 
     .brand-logo {
         width: 75%;
-        height: auto;
     }
     .main {
         padding-top: 5%;
@@ -282,10 +277,10 @@ footer {
         width: 90%;
         font-size: 15px;
     }
-    .numbers {
+    .param-wrapper strong {
         font-size: 28px;
     }
-    .header-text {
+    .param-wrapper span{
         font-size: 14px;
     }
     .main {
@@ -319,11 +314,8 @@ footer {
         width: 90%;
         font-size: 14px;
     }
-    .numbers {
+    .param-wrapper strong {
         font-size: 18px;
-    }
-    .header-top {
-        height: auto;
     }
     .header-content {
         justify-content: space-between;
@@ -335,7 +327,7 @@ footer {
     .header-picture {
         width: 50%;
     }
-    .header-text {
+    .param-wrapper span {
         font-size: 13px;
     }
     .header-logo {
@@ -375,7 +367,7 @@ footer {
         width: 90%;
         font-size: 12px;
     }
-    .numbers {
+    .param-wrapper strong {
         font-size: 15px;
     }
 
@@ -389,7 +381,7 @@ footer {
     .header-picture {
         width: 50%;
     }
-    .header-text {
+    .param-wrapper span{
         font-size: 13px;
     }
     .header-logo {
