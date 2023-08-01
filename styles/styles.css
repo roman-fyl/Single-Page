@@ -66,7 +66,6 @@ footer {
 
 .header-description {
     width: 33%;
-    /* margin-bottom: 5px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -77,6 +76,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
 .param-wrapper strong {
     color: #FFF;
     font-family: Roboto, sans-serif;
@@ -154,7 +154,7 @@ footer {
     font-weight: 300;
     line-height: 145.8%;
     letter-spacing: 0.36px;
-    text-align:center;
+    text-align: center;
     padding: 20px 0px;
 }
 
@@ -216,29 +216,35 @@ footer {
 .footer {
     height: 16px;
 }
+
 @media (max-width: 1199.98px) {
     [class*="_limit"] {
         max-width: 970px;
         padding: 0px 15px;
     }
+
     .header-top {
         font-size: 100px;
     }
+
     .text {
         width: 90%;
         font-size: 17px;
     }
+
     .param-wrapper strong {
         font-size: 40px;
     }
+
     .param-wrapper span {
         font-size: 17px;
     }
-   
+
     .header-logo {
         align-items: baseline;
         flex-wrap: nowrap;
     }
+
     .brand-name-wrapper {
         width: 50%;
     }
@@ -246,127 +252,164 @@ footer {
     .brand-logo {
         width: 75%;
     }
+
     .main {
         padding-top: 5%;
     }
+
     .highlighted-text p {
         font-size: 14px;
     }
+
     .content-text p {
         font-size: 19px;
     }
+
     .block h3 {
         font-size: 20px;
     }
+
     .block ul li {
         font-size: 20px;
     }
+
     .block ul {
         padding-left: 16px;
     }
 }
+
 @media (max-width: 990.98px) {
     [class*="_limit"] {
         max-width: 750px;
         padding: 0px 15px;
     }
+
     .header-top {
         font-size: 80px;
     }
+
     .text {
         width: 90%;
         font-size: 15px;
     }
+
     .param-wrapper strong {
         font-size: 28px;
     }
-    .param-wrapper span{
+
+    .param-wrapper span {
         font-size: 14px;
     }
+
     .main {
         padding-top: 5%;
     }
+
     .highlighted-text p {
         font-size: 12px;
     }
+
     .content-text p {
         font-size: 15px;
     }
+
     .block h3 {
         font-size: 14px;
     }
+
     .block ul li {
         font-size: 14px;
     }
+
     .block ul {
         padding-left: 10px;
     }
 }
+
 @media (max-width: 767.98px) {
     [class*="_limit"] {
         max-width: 540px;
         padding: 0px 15px;
     }
+
     .header {
         height: 400px;
     }
+
     .text {
         width: 90%;
         font-size: 14px;
     }
+
     .param-wrapper strong {
         font-size: 18px;
     }
+
     .header-content {
         justify-content: space-between;
         align-items: center;
     }
+
     .header-description {
         width: 50%;
     }
+
     .header-picture {
         width: 50%;
     }
+
     .param-wrapper span {
         font-size: 13px;
     }
+
     .header-logo {
         display: none;
     }
+
     .main {
         padding-top: 5%;
     }
+
     .highlighted-text p {
         font-size: 12px;
     }
+
     .content-text p {
         font-size: 14px;
     }
+
     .block {
         padding: 15px;
     }
+
     .block h3 {
         font-size: 10px;
     }
+
     .block ul li {
         font-size: 10px;
     }
+
     .block ul {
         padding-left: 10px;
     }
 }
+
 @media (max-width: 486.98px) {
     [class*="_limit"] {
         max-width: none;
         padding: 0px 15px;
     }
+
     .header {
         height: 400px;
     }
+
     .text {
         width: 90%;
         font-size: 12px;
     }
+
     .param-wrapper strong {
         font-size: 15px;
     }
@@ -375,42 +418,53 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
+
     .header-description {
         width: 50%;
     }
+
     .header-picture {
         width: 50%;
     }
-    .param-wrapper span{
+
+    .param-wrapper span {
         font-size: 13px;
     }
+
     .header-logo {
         display: none;
     }
+
     .main {
         padding-top: 5%;
     }
+
     .highlighted-text p {
         font-size: 11px;
     }
+
     .content-text p {
         font-size: 14px;
     }
-      .main-content-elements {
+
+    .main-content-elements {
         align-items: center;
         flex-direction: column;
-      }
+    }
+
     .block {
         width: 80%;
         padding: 15px;
     }
+
     .block h3 {
         text-align: center;
         font-size: 16px;
     }
+
     .block ul li {
         text-align: center;
-       list-style: none;
+        list-style: none;
         font-size: 16px;
     }
 }
