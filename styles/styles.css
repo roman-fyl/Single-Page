@@ -21,7 +21,7 @@ footer {
     background: #A72800;
 }
 
-[class*="_limit"] {
+[class*="_container"] {
     max-width: 1302px;
     margin: 0 auto;
     padding: 0px 15px;
@@ -46,7 +46,6 @@ footer {
 }
 
 .header-top {
-    height: 220px;
     color: #FFF;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -119,8 +118,7 @@ footer {
 }
 
 .brand-logo {
-    width: 340px;
-    height: 243px;
+    width: 100%;
     position: relative;
     z-index: 2;
 }
@@ -218,7 +216,7 @@ footer {
 }
 
 @media (max-width: 1199.98px) {
-    [class*="_limit"] {
+    [class*="_container"] {
         max-width: 970px;
         padding: 0px 15px;
     }
@@ -279,7 +277,7 @@ footer {
 }
 
 @media (max-width: 990.98px) {
-    [class*="_limit"] {
+    [class*="_container"] {
         max-width: 750px;
         padding: 0px 15px;
     }
@@ -327,7 +325,7 @@ footer {
 }
 
 @media (max-width: 767.98px) {
-    [class*="_limit"] {
+    [class*="_container"] {
         max-width: 540px;
         padding: 0px 15px;
     }
@@ -396,7 +394,7 @@ footer {
 }
 
 @media (max-width: 486.98px) {
-    [class*="_limit"] {
+    [class*="_container"] {
         max-width: none;
         padding: 0px 15px;
     }
